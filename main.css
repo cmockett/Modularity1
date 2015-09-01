@@ -1,7 +1,8 @@
 body {
 	margin-left:150px;
-	margin-right:200px;
+	margin-right:210px;
 }
+
 .FirstRow{
 	width:80px;
 	height:35px;
@@ -27,10 +28,11 @@ body {
 	font-color:gray;
 }
 .centeralign{
-	float:center;
 	width:80px;
 	text-align:center;
 	height:50px;
+	position:relative;
+	top:20px;
 }
 .NumTable{
 	border-top:1px solid black;
@@ -40,20 +42,60 @@ body {
 	background-color:#6699ff;
 	margin-right:620px;
 	height:25px;
+	color:white;
 }
 .alignright tr th{
 	text-align:right;
 }
-.LB {
-	border:120px solid gray;
-	padding: 20px 20px 20px 20px;
-
-
+.LBgray {
+	height:72vh;
+	width:100vw;
+	background-color:gray;
+}
+.LB1 {
+	position:relative;
+	left:400px;
+	bottom:50px;
+	height:40px;
+	width:120px;
+	background-color:pink;
+	border-radius:5px;
 }
 .LB1 a{
-	float:right;
-	margin:10px 50px 10px 50px;
 	color:white;
 	text-decoration:none;
-	background-color:pink;
+	position:relative;
+	left:40px;
+	top:10px;
 }
+.LBwhite {
+	position:relative;
+	top:100px;
+	left:120px;
+	height:300px;
+	width:540px;
+	border-radius:10px;
+	background-color:white;
+}
+.LBwhite h3 {
+	padding:20px;
+}
+.LBwhite p {
+	padding:20px;
+	position:relative;
+	bottom:20px;
+}
+.fbimg{
+	float:left;
+}
+.fbimgtext{
+	position:relative;
+	left:10px;
+}
+.fboverflow{
+	overflow:hidden;
+	position:relative;
+	left:10px;
+}
+.fbcomment{
+	position:relative;}
